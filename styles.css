@@ -1,0 +1,69 @@
+body {
+    font-family: 'math', sans-serif;
+    margin: 10;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Updated to a vertical layout */
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.image {
+    text-align: justify;
+}
+
+.description {
+    text-align: left;
+    padding: 0px; /* Added padding to separate the name and initial description */
+}
+
+img {
+    max-height: 200px; /* Adjust the maximum height as needed */
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for a slightly rounded image */
+}
+
+.description h1 {
+    font-size: 30px;
+    text-align: right;
+}
+
+.description p {
+    font-size: 25px;
+}
+
+.career-description {
+    font-size: 26px;
+    text-align: justify; /* Optional: Adjust the text alignment */
+    margin-top: 0px; /* Optional: Add margin to separate the career description from the initial description */
+}
+
+/* Styles for the New Section */
+.new-section {
+    text-align: left;
+    margin-top: 0px; /* Adjust the value to set the desired spacing between sections */
+}
+
+.new-section h2 {
+    font-size: 34px; /* Adjust the value to set the desired font size for the new section title */
+}
+
+.new-section p {
+    font-size: 22px; /* Adjust the value to set the desired font size for the new section content */
+    margin-top: 0px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+}
+
+.contact-details p {
+    font-size: 18px;
+}
